@@ -7,7 +7,7 @@ import Hero from "./components/hero.jsx";
 
 const App = () => {
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-x-hidden">
       <Header />
       <Hero />
     </div>
