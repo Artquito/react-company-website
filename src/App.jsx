@@ -3,13 +3,15 @@
 // import viteLogo from '/vite.svg'
 import "./App.css";
 import Header from "./components/header.jsx";
+import Hero from "./components/hero.jsx";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Header></Header>
+    <div className="relative overflow-hidden">
+      <Header />
+      <Hero />
     </div>
   );
-}
+};
 
 export default App;
