@@ -7,9 +7,8 @@ const Blob1 = ({ cssClass }) => {
     >
       <defs>
         <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stopColor="#6dd5fa" /> {/* Tailwind's blue-500 */}
-          <stop offset="100%" stopColor="#2980b9" />{" "}
-          {/* Tailwind's purple-600 */}
+          <stop offset="0%" stopColor="#6dd5fa" />
+          <stop offset="100%" stopColor="#2980b9" />
         </linearGradient>
       </defs>
       <path
