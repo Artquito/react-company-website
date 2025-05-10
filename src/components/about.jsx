@@ -23,7 +23,7 @@ const AboutUs = () => {
 
       <TwoBlockLayout
         title="Why Choose Us?"
-        desc="Over 14 years of ERP implementation experience, scalable for startups to enterprise-level operations, dedicated support and onboarding, specialists trusted by 100+ companies across Australia. Let us be the partner that grows with you."
+        desc="Over 14 years of ERP implementation experience, scalable for startups to enterprise-level operations, dedicated support and onboarding, and specialists trusted by 100+ companies across Australia. Let us be the partner that grows with you."
         imgSrc={heroImage}
       />
     </div>
