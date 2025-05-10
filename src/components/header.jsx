@@ -19,13 +19,13 @@ const Header = () => {
       <nav className="max-lg:hidden">
         <ul className="flex gap-6">
           <li className="hover:scale-110 transition-transform">
-            <a href="/" className="font-bold text-gray-800 hover:text-blue-600">
+            <a href="#about" className="font-bold text-gray-800 hover:text-blue-600">
               ABOUT
             </a>
           </li>
           <li className="hover:scale-110 transition-transform">
             <a
-              href="/about"
+              href="#pricing"
               className="font-bold text-gray-800 hover:text-blue-600"
             >
               PRICING
@@ -33,7 +33,7 @@ const Header = () => {
           </li>
           <li className="hover:scale-110 transition-transform">
             <a
-              href="/services"
+              href="#contact"
               className="font-bold text-gray-800 hover:text-blue-600"
             >
               CONTACT

@@ -4,7 +4,7 @@ import TwoBlockLayout from "./twoBlockLayout";
 
 const AboutUs = () => {
   return (
-    <div className="max-lg:px-5 lg:px-30 py-10">
+    <div id="about" className="max-lg:px-5 lg:px-30 py-10">
       <HeadingTitle text="About Us" />
 
       <TwoBlockLayout

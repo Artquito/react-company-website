@@ -2,7 +2,7 @@ import HeadingTitle from "./title";
 
 const Pricing = () => {
   return (
-    <div className="-mt-30 max-lg:px-5 lg:px-30 py-10">
+    <div id="pricing" className="-mt-30 max-lg:px-5 lg:px-30 py-10">
       <HeadingTitle text="Pricing" />
       <div className="flex flex-col md:flex-row justify-center items-stretch gap-6 p-6">
         {/* Basic Plan */}
