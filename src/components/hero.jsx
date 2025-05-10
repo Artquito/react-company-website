@@ -2,8 +2,12 @@ import heroImage from "../assets/heroImg.svg";
 
 const Hero = () => {
   return (
-    <div className="h-[calc(100vh-100px)] flex flex-col items-center justify-center max-sm: px-3">
-      <img className="-z-1 opacity-95" src={heroImage} alt="hero image" />
+    <div className="h-[calc(100vh-100px)] flex flex-col items-center justify-center max-sm:px-3">
+      <img
+        className="-z-1 inline-block opacity-95"
+        src={heroImage}
+        alt="hero image"
+      />
       <h1 className="mt-8 mb-4 max-sm:text-2xl sm:text-4xl max-w-150 text-center font-bold">
         Streamline Your Business with <br />
         <span className="bg-gradient-to-b from-violet-800 to-violet-400 bg-clip-text text-transparent">
