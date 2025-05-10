@@ -41,7 +41,7 @@ const Header = () => {
           </li>
           <li className="hover:scale-110 transition-transform">
             <a
-              href="/contact"
+              href="/login"
               className="gradient-border text-white font-bold hover:bg-blue-100 rounded-sm py-3 px-14 "
             >
               LOGIN

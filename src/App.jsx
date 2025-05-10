@@ -7,16 +7,21 @@ import Contact from "./components/contact.jsx";
 import LoginPage from "./login.jsx";
 
 const App = () => {
-  return (
-    // <div className="relative overflow-hidden">
-    //   <Header />
-    //   <Hero />
-    //   <About />
-    //   <Pricing />
-    //   <Contact />
-    // </div>
-    <LoginPage />
-  );
+  const path = window.location.pathname;
+  if (path === '/login') {
+    return (<LoginPage />);
+  }else {
+    return (
+      <div className="relative overflow-hidden">
+        <Header />
+        <Hero />
+        <About />
+        <Pricing />
+        <Contact />
+      </div>
+      
+    );
+  }
 };
 
 export default App;
