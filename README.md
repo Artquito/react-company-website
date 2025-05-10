@@ -1,8 +1,4 @@
-# React + Vite
+# The technology used on this project are
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Tailwind because the utility classes allowed me to style the site faster than using regular CSS
+- Font-awesome because it solves the problems of icons in a realatively quick setup and it's easy to use with react
